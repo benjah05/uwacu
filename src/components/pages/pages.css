@@ -1,0 +1,253 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+  
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:#274472;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3;
+}
+  
+.text, .text p {
+    max-width: 800px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.signup {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #274472;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.signup:hover {
+    background-color: #0077cc;
+    transform: scale(1.05);
+}
+
+.side-by-side-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split the container into two equal columns */
+    height: 100vh; /* Make the container take up the full viewport height */
+}
+  
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+  
+.image-container img {
+    max-width: 100%; /* Ensure the image is responsive */
+    max-height: 100vh; /* Ensure the image doesn't exceed the viewport height */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+  
+.text-container {
+    padding: 5rem; /* Add some padding for spacing */
+    font-size: 1.1rem; /* Adjust font size */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* AuthPage css style*/
+.auth-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-left, .auth-right {
+    padding: 20px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.auth-left {
+    background-color: #ddd;
+}
+  
+.auth-right {
+    background-color: #274472;
+    color: white;
+}
+
+.auth-left h2,
+.auth-right h2 {
+    margin-bottom: 20px;
+}
+
+.auth-left input, select{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.auth-left button,
+.auth-right button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #274472;
+    color: white;
+    cursor: pointer;
+}
+  
+.auth-left button:hover,
+.auth-right button:hover {
+    background-color: #274472;
+    transform: scale(1.05);
+}
+  
+.auth-right button {
+    background-color: white;
+    color: #274472;
+}
+  
+.auth-right button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Learning Page */
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+.search input[type="text"] {
+    width: 500px;
+    padding: 10px 40px 10px 15px;
+    font-size: 1rem;
+    border: 3px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search input[type="text"]::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.search input:focus {
+    border-color: #274472;
+    box-shadow: 0 0 8px rgba(39, 68, 114, 0.5);
+}
+
+/*.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    cursor: pointer;
+}*/
+
+.explore {
+    padding-left: 0;
+    margin-left: 65px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.explore h1 {
+    font-size: 25px;
+    color:#274472;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 20px;
+}
+
+.items {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.items img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px;
+}
+
+/*LessonView/ ProductView Page: Lesson/ Product Description */
+.DetailsPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 100vh;
+    /* width: 100vw; */
+    padding: 30px;
+    margin: 30px;
+}
+
+.DetailsPage h1 {
+    font-size: 20px;
+    color: #274472;
+    margin: 30px;
+    /* padding: 50px; */
+}
+
+.DetailsPage p {
+    font-size: 18px;
+    /* margin-top: 5px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.DetailsPage .img {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.take-action {
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #274472;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
