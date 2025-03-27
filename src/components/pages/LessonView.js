@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import lessons from './Lessons';
 
 export default function LessonView() {
@@ -9,6 +9,10 @@ export default function LessonView() {
         return <div><p>Lesson not found!</p></div>; // Handle invalid IDs
     }
 
+    const handleTakeLesson = () => {
+        <Link to="/lesson-video/${lesson.id}"></Link>; // Navigate to video page with lesson ID
+    };
+
     return (
         <div className='DetailsPage'>
             <div className='lesson'>
@@ -17,8 +21,25 @@ export default function LessonView() {
             <div className='description'>
                 <h1>{lesson.description}</h1>
                 <p>{lesson.content}</p>
+                <br/>
+
+                {lesson.requirements && (
+                <p className="requirements">
+                    <p>What you'll need:</p>
+                        {lesson.requirements.map((req, index) => (
+                            <li key={index}>
+                                <Link to={`/shop/${req.shopItemId}`}>
+                                    {req.text}
+                                </Link>
+                            </li>
+                        ))}
+                    
+                 </p>
+                )}
                 <br/><br/>
-                <button className='take-action'>Take Lesson</button>
+                <Link to={`/lesson-video/${lesson.id}`}>
+                    <button className='take-action'>Take Lesson</button>
+                </Link>
             </div>
         </div>
     );

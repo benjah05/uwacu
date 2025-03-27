@@ -3,7 +3,7 @@ import uduseke from './images/uduseke.png';
 import amasunzu from './images/amasunzu.png';
 import ingoro from './images/ingoro.png';
 import canopy_walk from './images/canopy_walk.png';
-import imigongoArt from './images/imigongo_art.png';
+import inanga from './images/gucuranga_inanga.png';
 
 const lessons = [
     {
@@ -55,12 +55,18 @@ const lessons = [
     },
     {
         id: 6,
-        image: imigongoArt,
-        title: "Imigongo",
-        description: "How to make imigongo at Home.",
-        content: `Imigongo art is a hands-on way to connect with Rwandan culture. This lesson provides a comprehensive guide to creating your own Imigongo art at home.
-        Learn about the materials needed, the techniques for preparing the cow dung, and the steps for creating the intricate geometric patterns.
-        Discover the symbolism behind the designs and express your creativity through this unique Rwandan art form.`,
+        image: inanga,
+        title: "inanga",
+        description: "How to make play inanga.",
+        content: `The inānga (also known as enanga, ennanga, ikivuvu, and indimbagazo) is a traditional musical instrument played in Burundi, Rwanda, Uganda, and parts of the Democratic Republic of Congo.
+        It consists of a slightly concave soundboard framed by a thick notched rim which holds strings in place over the board. Ināngas typically have between six and eight strings.`,
+        requirements: [
+            { 
+                text: "Inanga Instrument", 
+                shopItemId: 3  // Links to product ID 3 in your shop
+            },
+        ],
+        youtubeId: `https://www.youtube.com/watch?v=MaODQZS8Hu0`
     },
 ];
 
