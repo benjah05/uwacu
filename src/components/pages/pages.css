@@ -251,3 +251,13 @@ p {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.video-wrapper {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    min-height: 60vh;       /* Match ReactPlayer height */
+    margin: 0 auto;         /* Horizontal centering fallback */
+    padding: 20px;
+    max-width: 1200px;      /* Optional: Limit max width */
+  }
