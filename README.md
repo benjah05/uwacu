@@ -1,5 +1,6 @@
 <h1>UWACU Project</h1>
 
+<img src="landing_page.png" alt="Screenshot of Login/SignUp page" width="600">
 <h2>Introduction</h2>
 <p>Uwacu is a platform that bridges Rwanda's cultural heritage with the next generation, creating job opportunities while inspiring national pride. It reconnects Rwandan youth and the diaspora with their roots through interactive sessions, competitions, and cultural games, fostering a deep sense of identity in a globalized world. The platform enables users to not only learn but also teach, creating meaningful employment opportunities and building a sustainable, community-driven ecosystem for cultural education.</p>
 
@@ -7,7 +8,7 @@
 
 <p>I’ve always wanted to play a musical instrument like the guitar. One day as i was thinking about this and thought to myself, ‘how great would it be if i learned playing inanga (the traditional rwandan "harp") instead?’ That’s how this idea was born. It grew into something bigger—a cultural tool to connect the youth to our heritage, strengthen our national bond, and celebrate our pride.</p>
 
-<p>Throughout the development of Uwacu, I faced two significant challenges. Firstly, I had a very limited timeframe to complete the project. This required me to prioritize features and work efficiently. Secondly, I needed to learn several new frameworks while simultaneously working on the project. This involved a lot of on-the-fly learning and problem-solving, which was both challenging and rewarding. I had to dedicate extra time to learn the ins and outs of [**Mention specific frameworks, e.g., React, Django, etc.**].</p>
+<p>Throughout the development of Uwacu, I faced two significant challenges. Firstly, I had a very limited timeframe to complete the project. This required me to prioritize features and work efficiently. Secondly, I needed to learn several new frameworks while simultaneously working on the project. This involved a lot of on-the-fly learning and problem-solving, which was both challenging and rewarding.</p>
 
 <p>Despite the time constraints and the learning curve, I'm proud of the result. I learned valuable lessons about time management, rapid framework acquisition, and building a functional application under pressure.</p>
 
@@ -28,11 +29,6 @@
 
 <p><strong>Deployed Site:</strong> <a href="https://benjah05.github.io/uwacu_landing_page/">uwacu</a></p>
 <p><strong>Final Project Blog Article:</strong> <a href="https://medium.com/building-uwacu">Building Uwacu</a></p>
-
-<p><strong>Author(s):</strong></p>
-<ul>
-    <li>SENZELE Benjamine - <a href="https://www.linkedin.com/in/benjamine-senzele/">LinkedIn</a></li>
-</ul>
 
 <h2>Installation</h2>
 
@@ -86,6 +82,11 @@
     <li><a href="https://afrocrowd.org/">AfroCrowd</a></li>
     <p>AfroCrowd aims to preserve and promote African culture and history.
     It focuses on crowdsourced content rather than structured learning.</p>
+</ul>
+
+<h2><strong>Author:</strong></h2>
+<ul>
+    <li>SENZELE Benjamine - <a href="https://www.linkedin.com/in/benjamine-senzele/">LinkedIn</a></li>
 </ul>
 
 <h2>🪪 Licensing</h2>
