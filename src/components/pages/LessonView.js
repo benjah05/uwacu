@@ -3,6 +3,7 @@ import lessons from './Lessons';
 
 export default function LessonView() {
     const { id } = useParams();
+    
     const lesson = lessons.find((lesson) => lesson.id === parseInt(id)); // Find the lesson by ID
 
     if (!lesson) {

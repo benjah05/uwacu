@@ -9,6 +9,7 @@ import AuthPage from './components/pages/AuthPage';
 import Profile from './components/pages/Profile';
 import LessonView from './components/pages/LessonView';
 import ProductView from './components/pages/ProductView';
+import PlayLesson from './components/pages/PlayLesson'
 import { Route, Routes, useLocation } from 'react-router-dom';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/learning" element={<Learning />}/>
           <Route path="/learning/:id" element={<LessonView />} />
+          <Route path="lesson-video/:id" element={<PlayLesson />} />
           <Route path="/shop" element={<Shop />}/>
           <Route path="/shop/:id" element={<ProductView />} />
           <Route path="/authPage" element={<AuthPage />}/>
