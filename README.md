@@ -1,6 +1,6 @@
 <h1>UWACU Project</h1>
 
-<img src="landing_page.png" alt="Screenshot of Login/SignUp page" width="600">
+<img src="landing_page.png" alt="Screenshot of Login/SignUp page">
 <h2>Introduction</h2>
 <p>Uwacu is a platform that bridges Rwanda's cultural heritage with the next generation, creating job opportunities while inspiring national pride. It reconnects Rwandan youth and the diaspora with their roots through interactive sessions, competitions, and cultural games, fostering a deep sense of identity in a globalized world. The platform enables users to not only learn but also teach, creating meaningful employment opportunities and building a sustainable, community-driven ecosystem for cultural education.</p>
 
