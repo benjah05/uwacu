@@ -84,7 +84,7 @@
     It focuses on crowdsourced content rather than structured learning.</p>
 </ul>
 
-<h2><strong>Author:</strong></h2>
+<h2>👩🏿‍💻 Author</h2>
 <ul>
     <li>SENZELE Benjamine - <a href="https://www.linkedin.com/in/benjamine-senzele/">LinkedIn</a></li>
 </ul>
